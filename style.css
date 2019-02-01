@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background: linear-gradient(rgba(11, 29, 172, 0.5), rgba(31,44, 136, 0.4)), url("plavo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 120vh;
+}
+nav {
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+#dugme {
+  border: 1px solid white;
+  background-color: white;
+  color: blue;
+  border-radius: 4px;
+}
+#dugme:hover {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+header ul {
+  margin-left: 6%;
+}
+.dugmad h1 {
+  color: white;
+}
+.dugmad {
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+     -ms-flex-align: center;
+        align-items: center;
+  -webkit-box-pack: center;
+     -ms-flex-pack: center;
+   justify-content: center;
+ flex-direction: column;
+margin-top: -55px;
+
+}
+.dugmad div {
+  margin-top: 30px;
+}
+.dugmad a {
+  padding: 8px 16px;
+  margin: 25px;
+  background-color: white;
+  border-radius: 4px;
+}
+.dugmad a:hover {
+  text-decoration: none;
+ background-color: blue;
+ color: white;
+}
+.red {
+  display: flex;
+}
+#prvi {
+  background: linear-gradient(rgba(11, 29, 172, 0.5), rgba(31,44, 136, 0.4)), url("boje.jpg");
+  width: 50%;
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 10px;
+}
+#prvi:hover, #drugi:hover, #treci:hover, #cetvrti:hover {
+  opacity: 0.9;
+}
+#drugi {
+  background: linear-gradient(rgba(11, 29, 172, 0.5), rgba(31,44, 136, 0.4)), url("stolaptop.jpg");
+  width: 50%;
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 10px;
+}
+#treci {
+  background: linear-gradient(rgba(11, 29, 172, 0.5), rgba(31,44, 136, 0.4)), url("beleknjige.jpg");
+  width: 50%;
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 10px;
+}
+#cetvrti {
+    background: linear-gradient(rgba(11, 29, 172, 0.5), rgba(31,44, 136, 0.4)), url("plava.jpg");
+  width: 50%;
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 10px;
+}
+main p {
+  color: white;
+  text-align: center;
+}
+main a {
+  background-color: white;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+main a:hover {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.mreze img {
+  width: 40px;
+  height: 45px;
+  padding: 2px;
+}
+@media (max-width: 748px){
+  .red {
+    flex-direction: column;
+  }
+  #prvi, #drugi, #treci, #cetvrti {
+    width: 100%;
+  }
+}
