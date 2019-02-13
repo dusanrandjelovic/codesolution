@@ -19,7 +19,32 @@
         justify-content: center;
         flex-direction: row;
       }
-
+      .kont {
+         font-size: 16px;
+          color: white;
+          margin-left: 10px;
+      }
+      .kont:hover {
+        color: white;
+        text-decoration: none;
+      }
+      nav li a {
+        color: white;
+      }
+      nav li a:hover {
+        color: black;
+      }
+      .dropdown-item {
+        color: white;
+      }
+      .dropdown-item:hover {
+        color: blue;
+        background-color:white;
+      }
+      .dropdown-menu {
+        background-color: blue;
+        border: 1px solid white;
+      }
       .logo {
         height: 60px;
         width: 60px;
@@ -64,11 +89,11 @@
   </head>
   <body>
     <header class="text-center">
-      <nav style="opacity: 0.9" class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
-    <a class="navbar-brand" href="index.html"><img src="dura.png" class="logo"></a>
-    <a style="font-size: 16px;" class="navbar-brand" href="#">065-888-11-96</a>
-    <a style="font-size: 16px;" class="navbar-brand" href="#">dusanrandjelovic92@gmail.com</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <nav style="opacity: 0.9" class="navbar navbar-expand-md fixed-top bg-primary">
+    <a class="navbar-brand" href="index.html"><img src="dura.png" class="logo" alt="dura logo"></a>
+    <a class="navbar-brand kont" href="#">065-888-11-96</a>
+    <a class="navbar-brand kont" href="#">dusanrandjelovic92@gmail.com</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -91,7 +116,7 @@
 
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
 
             <li class="nav-item">
@@ -120,7 +145,7 @@
 
 <div class="text-center">
           <h3>Naslov</h3>
-        <img src="slika.jpg">
+        <img src="slika.jpg" alt="knjiga">
 </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
           aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -139,9 +164,9 @@
                  <p>&copy; DuRa | Design by Dušan Ranđelović</p>
                 </div>
                 <div class="mreze">
-                  <a href="https://sr-rs.facebook.com/" target="blank"><img src="https://image.flaticon.com/icons/svg/174/174848.svg" /></a>
-                  <a href="https://twitter.com/login?lang=sr" target="blank"><img src="https://image.flaticon.com/icons/svg/174/174876.svg" /></a>
-                  <a href="https://www.instagram.com/accounts/login/" target="blank"><img src="https://image.flaticon.com/icons/svg/174/174855.svg" /></a>
+                  <a href="https://sr-rs.facebook.com/" target="blank"><img src="https://image.flaticon.com/icons/svg/174/174848.svg" alt="face"/></a>
+                  <a href="https://twitter.com/login?lang=sr" target="blank"><img src="https://image.flaticon.com/icons/svg/174/174876.svg" alt="twit"/></a>
+                  <a href="https://www.instagram.com/accounts/login/" target="blank"><img src="https://image.flaticon.com/icons/svg/174/174855.svg" alt="insta"/></a>
                 </div>
                 </footer>
   </body>

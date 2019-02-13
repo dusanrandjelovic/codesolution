@@ -13,8 +13,34 @@ nav {
   display:flex;
   justify-content: center;
   flex-direction: row;
+  align-items: center;
 }
-
+.kont {
+   font-size: 16px;
+    color: white;
+    margin-left: 10px;
+}
+.kont:hover {
+  color: white;
+  text-decoration: none;
+}
+nav li a {
+  color: white;
+}
+nav li a:hover {
+  color: black;
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-item:hover {
+  color: blue;
+  background-color:white;
+}
+.dropdown-menu {
+  background-color: blue;
+  border: 1px solid white;
+}
 .logo {
   height: 60px;
   width: 60px;
