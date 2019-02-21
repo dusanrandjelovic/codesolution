@@ -45,13 +45,13 @@ nav li a:hover {
   width: 60px;
 }
 #dugme {
-  border: 1px solid white;
+  border: 1px solid whitesmoke;
   background-color: white;
   color: blue;
   border-radius: 4px;
 }
 #dugme:hover {
-  border: 1px solid blue;
+  border: 1px solid white;
   background-color: blue;
   color: white;
 }
@@ -63,15 +63,9 @@ header ul {
 }
 .dugmad {
 
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100%;
-  -webkit-box-align: center;
-     -ms-flex-align: center;
         align-items: center;
-  -webkit-box-pack: center;
-     -ms-flex-pack: center;
    justify-content: center;
  flex-direction: column;
 margin-top: -55px;
